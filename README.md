@@ -1,4 +1,5 @@
 **O TheOne.sol**
+
 Ecrivez un contrat TheOne. Ce contrat devra posséder une fonction one qui retournera le nombre 1 lorsqu'elle sera appelée.
 
 ```
@@ -12,6 +13,7 @@ contract TheOne {
 }
 ```
 **1 HelloWorld.sol**
+
 Ecrivez un contrat HelloWorld.
 Ce contrat devra posséder une fonction hello qui retournera la string "Hello world!" lorsqu'elle sera appelée.
 
@@ -26,7 +28,8 @@ contract HelloWorld {
 }
 ```
 
-**2 SimpleStorage.sol
+**2 SimpleStorage.sol**
+
 Ecrivez un contrat SimpleStorage qui modifiera/affichera le contenu d'une variable uint256 private storedData.
 Une fonction get() retournera la valeur de storedData; Une fonction set(uint256 value) modifiera la valeur de storedData par value passé en paramètre. 
 
@@ -49,6 +52,7 @@ function get() public view returns (uint256)
 }
 ```
 **3 CheckOdd.sol**
+
 Ecrivez un contrat CheckOdd. Ce contrat devra posséder une fonction check qui prendra en paramètre un uint et qui retournera true si le nombre passé en paramètre à checkest impair sinon elle retournera false.
 ```
 //SPDX-License-Identifier: MIT
@@ -61,6 +65,7 @@ contract CheckOdd{
 }
 ```
 **4 mapToMap.sol**
+
 Ecrivez un contrat mapToMap. Ce contrat possédera une variable d'état earth public qui sera un mapping de string (des continents) vers un mapping de string (des pays de ce continent) vers une string (la capitale de ce pays); Renseigner directement dans le constructeur certaines valeurs comme:
 ```
 earth["europe"]["france"] = "paris";
@@ -85,6 +90,7 @@ contract mapToMap {
 }
 ```
 **5 Contact.sol**
+
 Ecrivez un contrat Contact qui permettra d'enregistrer ou de récupérer des info sur un contact en fonction de son adresse Ethereum. Les informations pour chaque contact seront stockées dans une struct avec les champs suivants: string name, string email, string phone.
 Un mapping nous donnera la correspondance entre 1 adresse Ethereum et ces informations.
 Une fonction addContact nous permettra d'ajouter un nouveau contact avec l'adresse Ethereum, le nom, l'email et le téléphone du contact en arguments à cette fonction.
